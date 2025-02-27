@@ -1,12 +1,12 @@
-# Model an Undirected Graph with APIs to Create and Traverse
-We have been asked to develop a Java program to model a undirected graph, including nodes and edges. We also need to develop the following APIs
+# Model an Undirected Graph 
+This is a simple practice to model an undirected graph with a couple of APIs (Create Node/Edges) and Traverse the graph. 
 <img src="./graph.png" alt="Graph" style="border: 1px solid \#000;">
 
-## Add node
-The first API should  enable adding a new node to the graph. With the added node, it will have no connection to any node.
-
-## Add edge
-The 'add edge' API allows creating an edge for nodes which are not connected directly or undirectly.  
-
-## Traverse the tree
-Given two nodes, we need a list of nodes which should be passed to reach from one node to the other.
+## Features
+- Graph must not allow a circular path between nodes.
+- To keep the practice simple, each node has only property called name.
+- Edges can't have any name or even presented by a model. If a node can be reached by another node, it means there is an edge between them.
+- To manipulate the graph, at-least two APIs are needed: 
+    - Create node API, which enables adding a new node to the graph.
+    - Add edge API, which allows creating an edge for nodes which are not connected directly or undirectly.  
+    - Traverse API, which provides a list of nodes by which a node can be reached out to through the other node.
