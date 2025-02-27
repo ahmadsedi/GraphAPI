@@ -1,4 +1,4 @@
-# Model an Undirected Graph 
+# Model Undirected Graph 
 This is a simple practice to model an undirected graph with a couple of APIs (Create Node/Edges) and Traverse the graph. 
 <img src="./graph.png" alt="Graph" style="border: 1px solid \#000;">
 
